@@ -8,6 +8,9 @@ To help the USGS better educate the public and other government organizations (a
 
 ### Approach 
 
-1. First we got the data set in JSON GeoJSON format from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php of "All Earthquakes" for the Past 7 Days. 
+We got the data set in JSON GeoJSON format from https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php of "All Earthquakes" for the Past 7 Days. 
+We imported and visualized data by plotting an interactive map using Leaflet JS library. The map is deployed to my Github Pages - https://ashumskyy.github.io/leaflet-challenge/.
 
-2. We imported and visualized data by plotting an interactive map using Leaflet JS library. The size of the markers reflect the magnitude of the earthquake, and the color - the depth of the earthquake. The popups provide additional information about the earthquake when its associated marker is clicked.
+### Functionality 
+
+The size of the markers reflect the magnitude of the earthquake, and the color - the depth of the earthquake. The popups provide additional information about the earthquake when its associated marker is clicked. We have two layers we can switch between: Street Map and Topographic Map. At the right bottom corner we have a legend that shows the colors for the depth of the earthquakes.
